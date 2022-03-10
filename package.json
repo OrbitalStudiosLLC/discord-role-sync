@@ -4,7 +4,8 @@
   "description": "Sync roles between multiple discord servers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Jack Christie @ https://github.com/jackcrispy",
@@ -12,6 +13,7 @@
   "dependencies": {
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
-    "node-cron": "^3.0.0"
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15"
   }
 }
