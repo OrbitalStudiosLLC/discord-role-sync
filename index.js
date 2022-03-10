@@ -26,7 +26,7 @@ async function progressiveSearch(member_id) {
                 let target_guild = client.guilds.cache.get(config.roles[i].extending_guild);
                 let target_role = target_guild.roles.cache.find(role => role.id === config.roles[i].extending_role_id);
                 let target_member = target_guild.members.cache.find(member => member.id === member_id);
-                if (target_member) {
+                if (target_member && base_member.roles.cache.has(target_role.id)) {
                     target_member.roles.add(target_role);
                 }
             }
@@ -53,7 +53,7 @@ async function syncRoles() {
             for (j = 0; j < base_members.length; j++){
                 let base_member = base_members[j];
                 let target_member = target_members.find(member => member.id === base_member.id);
-                if (target_member) {
+                if (target_member && base_member.roles.cache.has(target_role.id)) {
                     target_member.roles.add(target_role);
                 }
             }
