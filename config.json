@@ -2,32 +2,44 @@
     "cron_time": "0 */3 * * *",
     "roles": [
         {
-            "base_guild": "805298672475701249",
+            "base_guild": "O-STU",
             "base_role_id": "947745665335840779",
-            "extending_guild": "767525765490278430",
+            "extending_guild": "O-HOS",
             "extending_role_id": "951270256217841744",
             "comment": "Public Beta Tester (PBT) > PBT"
         },
         {
-            "base_guild": "805298672475701249",
+            "base_guild": "O-STU",
             "base_role_id": "911417586212823090",
-            "extending_guild": "767525765490278430",
+            "extending_guild": "O-HOS",
             "extending_role_id": "951276888377151558",
             "comment": "Human Resource(s) > HR"
         },
         {
-            "base_guild": "805298672475701249",
+            "base_guild": "O-STU",
             "base_role_id": "806447735078912001",
-            "extending_guild": "767525765490278430",
+            "extending_guild": "O-HOS",
             "extending_role_id": "951316449539010650",
             "comment": "Astronauts > Orbital Freelancers"
         },
         {
-            "base_guild": "767525765490278430",
+            "base_guild": "O-HOS",
             "base_role_id": "951267033004269578",
-            "extending_guild": "805298672475701249",
+            "extending_guild": "O-STU",
             "extending_role_id": "951317126537441330",
             "comment": "Customer > Marketplace Customer"
+        }
+    ],
+    "guilds": [
+        {
+            "guild_id": "805298672475701249",
+            "code": "O-STU",
+            "comment": "Orbital Studios"
+        },
+        {
+            "guild_id": "767525765490278430",
+            "code": "O-HOS",
+            "comment": "Orbital Hosting"
         }
     ]
 }
