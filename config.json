@@ -28,6 +28,20 @@
             "extending_guild": "805298672475701249",
             "extending_role_id": "951317126537441330",
             "comment": "Customer > Marketplace Customer"
-        }
+        },
+        {
+            "base_guild": "805298672475701249",
+            "base_role_id": "807541547402002432",
+            "extending_guild": "767525765490278430",
+            "extending_role_id": "994929255798538260",
+            "comment": "Orbital CM > OT-cm"
+        },
+        {
+            "base_guild": "805298672475701249",
+            "base_role_id": "911417586212823090",
+            "extending_guild": "767525765490278430",
+            "extending_role_id": "994929965567057973",
+            "comment": "Orbital HR > OT-hr"
+        },
     ]
 }
