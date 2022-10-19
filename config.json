@@ -42,6 +42,13 @@
             "extending_guild": "767525765490278430",
             "extending_role_id": "994929965567057973",
             "comment": "Orbital HR > OT-hr"
+        },
+        {
+            "base_guild": "805298672475701249",
+            "base_role_id": "947745665335840779",
+            "extending_guild": "1032156664113139722",
+            "extending_role_id": "1032156914546647120",
+            "comment": "Orbital PBT > OTG-Tester"
         }
     ]
 }
